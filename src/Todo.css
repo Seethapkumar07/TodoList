@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;   
+}
+
+.inputPart {
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    color: wheat;
+}
+
+.inputPart input{
+    padding:  10px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.inputPart button{
+    width: 20%;
+    padding: 8px 12px;
+    background-color: rgb(40, 40, 121);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.inputPart button:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.taskList{
+    margin-top: 10px;
+}
+
+.taskList ul{
+list-style-type: none;
+}
+
+
+.taskList ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    margin-bottom: 5px;
+}
+
+.taskList ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.taskList ul li span{
+    padding: 7px 10px;
+}
+
+.taskList ul li span:nth-child(2):hover{
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+
+.done {
+    text-decoration: line-through;
+}
